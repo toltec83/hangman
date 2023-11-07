@@ -1,0 +1,12 @@
+.letterboard {
+  max-width: 1024px;
+  margin: 50px auto;
+  text-align: center;
+  .letterboard_word {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px 10px;
+    margin: 20px 0px 0px;
+    white-space: nowrap;
+  }
+}

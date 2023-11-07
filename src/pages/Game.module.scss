@@ -1,0 +1,22 @@
+.attempts_left {
+  text-align: center;
+  font-size: 30px;
+
+  .attempts_num{
+    font-size: 60px;
+  }
+}
+
+.btn_container {
+  text-align: center;
+  .reset_btn{
+      border: 1px solid #ccc;
+      background-color: #eee;
+      padding: 15px 100px;
+      font-size: 20px;
+      cursor: pointer;
+      &:hover {
+        background-color: #aaa;
+      }
+    }
+}

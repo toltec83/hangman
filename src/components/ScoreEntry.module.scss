@@ -1,0 +1,14 @@
+.score_entry {
+    display: flex;
+    padding: 10px;
+    font-size: 25px;
+
+    .name {
+        width:50%;
+        text-align: left;
+    }
+    .score {
+        width:50%;
+        text-align: right;
+    }
+}

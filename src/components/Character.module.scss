@@ -1,0 +1,26 @@
+.character {
+  display: inline-block;
+  margin: 0px 2px;
+  border-bottom: 2px #333333 solid;
+  height: 30px;
+  vertical-align: bottom;
+  box-sizing: border-box;
+  font-size: 25px;
+
+  &.alphabet {
+    width: 20px;
+    text-align: center;
+  }
+
+  &.revealed {
+    border-bottom: none;
+    .letter {
+      display: inline-block;
+      vertical-align: bottom;
+    }
+  }
+
+  .letter {
+    display: none;
+  }
+}
